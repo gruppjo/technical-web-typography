@@ -1,0 +1,26 @@
+.llm {
+  display:block;
+  font-size:15px;
+}
+
+.llm__input {
+  width: 100%;
+  text-align: center;
+  border:0;
+  padding: 15px;
+  font-size: 15px;
+}
+.llm__input:focus {
+  outline: none;
+}
+
+.llm__output {
+  display:block;
+  width:100%;
+  text-align: center;
+  padding: 15px;
+  padding-top: 0;
+  font-size: 15px;
+  color:grey;
+  background:white;
+}

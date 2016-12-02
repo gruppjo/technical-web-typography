@@ -5,8 +5,16 @@
   <title>Your Name</title>
   <link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="llm/llm.css" />
 </head>
 <body>
+
+  <div class="llm" id="llm">
+    <input class="llm__input" id="llm__input"
+      type="text"
+      placeholder="Line Length Measurer">
+    <span class="llm__output" id="llm__output"></span>
+  </div>
 
   <div class="colorbox--red sans">
     <h2>Geometric</h2>
@@ -33,8 +41,8 @@
     </p>
   </div>
 
-
-
-
 </body>
+
+<script src="llm/llm.js"></script>
+
 </html>

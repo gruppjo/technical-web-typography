@@ -4,4 +4,45 @@
 html {
   background: #333;
   color: #fff;
+  font-size: 48px;
 }
+
+/* FONT SIZE RESPONSIVENESS */
+@media (max-width: 767px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+/* FONT MODIFIERS */
+.sans {
+  font-family: sans-serif; /* serve machine's default sans face */
+}
+.cambria {
+  font-family: Cambria, Georgia, "Times New Roman", Times, serif;
+}
+
+/* COLOR BOX */
+.colorbox {
+  padding: 2rem;
+}
+.colorbox--red {
+  padding: 2rem;
+  background:red;
+}
+.colorbox--blue {
+  padding: 2rem;
+  background:blue;
+}
+
+/* TEXT ELEMENTS */
+h2 {
+  text-align:center;
+  margin:0;
+}
+p {
+  font-size: 0.5rem;
+  text-align: justify;
+  font-weight:lighter;
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "technical-web-typography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gruppjo/technical-web-typography.git"
+  },
+  "author": "gruppjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gruppjo/technical-web-typography/issues"
+  },
+  "homepage": "https://github.com/gruppjo/technical-web-typography#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}

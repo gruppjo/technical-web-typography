@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
   // llm
   let print = function () {
-    console.log('called');
     llmOut.textContent = llmIn.value.length;
   };
   let llmOut = document.getElementById('llm__output');

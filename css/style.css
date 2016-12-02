@@ -13,6 +13,12 @@ html {
     font-size: 32px;
   }
 }
+@media (min-width: 1000px) {
+  html {
+    font-size: 32px;
+  }
+}
+
 
 /* FONT MODIFIERS */
 .sans {
@@ -23,16 +29,27 @@ html {
 }
 
 /* COLOR BOX */
-.colorbox {
+.flex {
+  display:flex;
+  flex-flow: row wrap;
+}
+.flex__colorbox {
+  flex: 1 100%;
   padding: 2rem;
 }
-.colorbox--red {
-  padding: 2rem;
+.flex__colorbox--red {
   background:red;
 }
-.colorbox--blue {
-  padding: 2rem;
+.flex__colorbox--blue {
   background:blue;
+}
+@media (min-width: 1000px) {
+  .flex {
+    flex-flow: row nowrap;
+  }
+  .flex__colorbox {
+    flex: 1 50%;
+  }
 }
 
 /* TEXT ELEMENTS */
